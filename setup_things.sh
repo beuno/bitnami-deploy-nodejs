@@ -11,9 +11,5 @@ sudo systemctl enable myapp.service
 # Move the code into a permanent location
 sudo mv /tmp/app /opt/bitnami/app
 
-# With our code in place, restart Apache
-# sudo /opt/bitnami/ctlscript.sh restart apache
-
 # Install all our NodeJS dependencies
 cd /opt/bitnami/app && npm install
-
